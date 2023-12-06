@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+cmake-build-debug-coverage/_deps/sfml-src/
+cmake-build-debug/_deps/sfml-src/
