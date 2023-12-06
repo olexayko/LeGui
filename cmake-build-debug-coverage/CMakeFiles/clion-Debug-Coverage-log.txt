@@ -1,28 +1,4 @@
 "G:\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=G:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G Ninja -S G:\CLion_Projects\LeGui -B G:\CLion_Projects\LeGui\cmake-build-debug-coverage
--- The C compiler identification is GNU 13.1.0
--- The CXX compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: G:/CLion 2023.2.2/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: G:/CLion 2023.2.2/bin/mingw/bin/g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for sys/types.h
--- Looking for sys/types.h - found
--- Looking for stdint.h
--- Looking for stdint.h - found
--- Looking for stddef.h
--- Looking for stddef.h - found
--- Check size of void*
--- Check size of void* - done
--- Found OpenGL: opengl32   
--- Looking for dinput.h
--- Looking for dinput.h - found
--- Found OpenAL: G:/CLion_Projects/LeGui/cmake-build-debug-coverage/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a  
 CMake Warning (dev) at G:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
   The package name passed to `find_package_handle_standard_args` (VORBIS)
   does not match the name of the calling package (Vorbis).  This can lead to
@@ -34,8 +10,6 @@ Call Stack (most recent call first):
   cmake-build-debug-coverage/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt:70 (sfml_find_package)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Found VORBIS: G:/CLion_Projects/LeGui/cmake-build-debug-coverage/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a;G:/CLion_Projects/LeGui/cmake-build-debug-coverage/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a;G:/CLion_Projects/LeGui/cmake-build-debug-coverage/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a;G:/CLion_Projects/LeGui/cmake-build-debug-coverage/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a  
--- Found FLAC: G:/CLion_Projects/LeGui/cmake-build-debug-coverage/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a  
--- Configuring done (96.4s)
+-- Configuring done (0.9s)
 -- Generating done (0.0s)
 -- Build files have been written to: G:/CLion_Projects/LeGui/cmake-build-debug-coverage

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 project(Letopiya)
-
+set(CMAKE_EXE_LINKER_FLAGS "-static")
 include(FetchContent)
 set(BUILD_SHARED_LIBS OFF)
 FETCHCONTENT_DECLARE(SFML GIT_REPOSITORY https://github.com/SFML/SFML.git GIT_TAG 2.5.1)

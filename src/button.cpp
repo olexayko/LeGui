@@ -60,10 +60,10 @@ public:
         loadTextures();
 
         onLeftPressed = [&](){
-            window.setTitle("");
+            window.setTitle("***************************************************");
         };
         onLeftReleased = [&](){
-            window.setTitle("niggers, fuck niggers");
+            window.setTitle("---------------------------------------------------");
         };
         _onLeftPressed = [&](){
             cout << "_onLeftPressed";
