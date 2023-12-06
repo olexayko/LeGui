@@ -27,7 +27,6 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
 cmake-build-debug-coverage/_deps/sfml-src/
