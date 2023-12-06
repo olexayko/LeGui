@@ -32,3 +32,9 @@
 *.app
 cmake-build-debug-coverage/_deps/sfml-src/
 cmake-build-debug/_deps/sfml-src/
+.idea/workspace.xml
+cmake-build-debug/.ninja_log
+cmake-build-debug/.ninja_deps
+cmake-build-debug/.ninja_log
+*.log
+*.xml

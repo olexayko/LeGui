@@ -128,6 +128,7 @@ public:
         switch (event.type)
         {
             case Event::MouseMoved:
+                if (wasClickedLast) return;
                 if (FloatRect(sprite.getGlobalBounds().left,
                           sprite.getGlobalBounds().top,
                           sprite.getGlobalBounds().width,
