@@ -65,9 +65,9 @@ build CMakeFiles/Letopiya.dir/src/button.cpp.obj: CXX_COMPILER__Letopiya_unscann
   OBJECT_DIR = CMakeFiles\Letopiya.dir
   OBJECT_FILE_DIR = CMakeFiles\Letopiya.dir\src
 
-build CMakeFiles/Letopiya.dir/src/LGui.cpp.obj: CXX_COMPILER__Letopiya_unscanned_Debug G$:/CLion_Projects/LeGui/src/LGui.cpp || cmake_object_order_depends_target_Letopiya
+build CMakeFiles/Letopiya.dir/src/leGui.cpp.obj: CXX_COMPILER__Letopiya_unscanned_Debug G$:/CLion_Projects/LeGui/src/leGui.cpp || cmake_object_order_depends_target_Letopiya
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\Letopiya.dir\src\LGui.cpp.obj.d
+  DEP_FILE = CMakeFiles\Letopiya.dir\src\leGui.cpp.obj.d
   FLAGS = --coverage -g -fdiagnostics-color=always
   INCLUDES = -IG:/CLion_Projects/LeGui/cmake-build-debug-coverage/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\Letopiya.dir
@@ -81,7 +81,7 @@ build CMakeFiles/Letopiya.dir/src/LGui.cpp.obj: CXX_COMPILER__Letopiya_unscanned
 #############################################
 # Link the executable Letopiya.exe
 
-build Letopiya.exe: CXX_EXECUTABLE_LINKER__Letopiya_Debug CMakeFiles/Letopiya.dir/src/main.cpp.obj CMakeFiles/Letopiya.dir/src/button.cpp.obj CMakeFiles/Letopiya.dir/src/LGui.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+build Letopiya.exe: CXX_EXECUTABLE_LINKER__Letopiya_Debug CMakeFiles/Letopiya.dir/src/main.cpp.obj CMakeFiles/Letopiya.dir/src/button.cpp.obj CMakeFiles/Letopiya.dir/src/leGui.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
   FLAGS = --coverage -g
   LINK_FLAGS = -static
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lwinmm  -lgdi32  -lopengl32  -lglu32  _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

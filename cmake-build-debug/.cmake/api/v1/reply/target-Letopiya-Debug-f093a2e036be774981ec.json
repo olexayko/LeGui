@@ -20,9 +20,9 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"cmake-build-debug-coverage/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt",
-			"cmake-build-debug-coverage/_deps/sfml-src/src/SFML/Window/CMakeLists.txt",
-			"cmake-build-debug-coverage/_deps/sfml-src/cmake/Macros.cmake"
+			"cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt",
+			"cmake-build-debug/_deps/sfml-src/src/SFML/Window/CMakeLists.txt",
+			"cmake-build-debug/_deps/sfml-src/cmake/Macros.cmake"
 		],
 		"nodes" : 
 		[
@@ -103,7 +103,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "--coverage -g -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"defines" : 
@@ -117,7 +117,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "G:/CLion_Projects/LeGui/cmake-build-debug-coverage/_deps/sfml-src/include"
+					"path" : "G:/CLion_Projects/LeGui/cmake-build-debug/_deps/sfml-src/include"
 				}
 			],
 			"language" : "CXX",
@@ -158,7 +158,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "--coverage -g",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -255,7 +255,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/LGui.cpp",
+			"path" : "src/leGui.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

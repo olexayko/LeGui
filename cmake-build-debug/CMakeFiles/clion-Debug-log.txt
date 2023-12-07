@@ -10,6 +10,6 @@ Call Stack (most recent call first):
   cmake-build-debug/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt:70 (sfml_find_package)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Configuring done (0.9s)
--- Generating done (0.0s)
+-- Configuring done (12.7s)
+-- Generating done (0.1s)
 -- Build files have been written to: G:/CLion_Projects/LeGui/cmake-build-debug

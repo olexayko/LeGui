@@ -37,3 +37,4 @@ cmake-build-debug/.ninja_deps
 cmake-build-debug/.ninja_log
 *.log
 *.xml
+.idea/workspace.xml

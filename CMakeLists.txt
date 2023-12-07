@@ -11,7 +11,7 @@ FETCHCONTENT_MAKEAVAILABLE(SFML)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Letopiya src/main.cpp src/button.cpp
-        src/LGui.cpp
+        src/leGui.cpp
         src/headers.h
         )
 

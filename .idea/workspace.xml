@@ -28,17 +28,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b26263-8cdc-492e-b82c-5c4d6ff32400" name="Changes" comment="Add simple ui button">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-138a3c26a7f001fafa0d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-12-04T20-56-46-0719.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Letopiya-Debug-d43c011a77c7a7030824.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/.cmake/api/v1/reply/codemodel-v2-0eb03e25193ed9b42c99.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/.cmake/api/v1/reply/index-2023-12-06T02-49-04-0711.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/.cmake/api/v1/reply/target-Letopiya-Debug-aada51638fad6e734b3c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/clion-Debug-Coverage-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/clion-Debug-Coverage-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/_deps/sfml-subbuild/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/_deps/sfml-subbuild/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-652a5cd88d842aec0451.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-12-06T02-49-04-0682.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Letopiya-Debug-07637e5725cdd0bbd192.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Letopiya.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Letopiya.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LGui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/leGui.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +109,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.deploy.options&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -107,15 +119,15 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Letopiya">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CMakeSFMLProject" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
     <configuration name="Letopiya" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Letopiya" TARGET_NAME="Letopiya" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Letopiya" RUN_TARGET_NAME="Letopiya">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -188,7 +200,11 @@
       <workItem from="1701545749836" duration="3021000" />
       <workItem from="1701706124963" duration="12501000" />
       <workItem from="1701806365305" duration="20793000" />
-      <workItem from="1701830941856" duration="3000" />
+      <workItem from="1701830941856" duration="319000" />
+      <workItem from="1701848237971" duration="1677000" />
+      <workItem from="1701874196400" duration="2961000" />
+      <workItem from="1701898486575" duration="136000" />
+      <workItem from="1701915721206" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="Add simple ui button">
       <option name="closed" value="true" />

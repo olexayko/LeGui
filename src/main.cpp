@@ -1,6 +1,6 @@
 #include "headers.h"
 #include "button.cpp"
-#include "LGui.cpp"
+#include "leGui.cpp"
 
 RenderWindow window(VideoMode(1920,1080), "My window" /*, Style::Fullscreen*/);
 
@@ -54,7 +54,8 @@ int main()
     window.setFramerateLimit(240);
     while (window.isOpen())
     {
-        sf::Event event{};
+        Event event{};
+        View view(sf::FloatRect(0, 0, 1920, 1080));
         while (window.pollEvent(event))
         {
             if (event.type == Event::Closed) { window.close(); }
@@ -66,7 +67,6 @@ int main()
         window.clear(Color::Black);
 
         window.draw(lgui);
-        //window.draw(btn);
 
 
         window.display();
